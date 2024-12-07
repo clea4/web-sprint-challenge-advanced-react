@@ -78,5 +78,4 @@ test("displays 'time' for singular steps", () => {
   render(<AppFunctional />);
   fireEvent.click(screen.getByText(/up/i));
   expect(screen.getByText(/you moved 1 time/i)).toBeInTheDocument();
-});
-
+})
